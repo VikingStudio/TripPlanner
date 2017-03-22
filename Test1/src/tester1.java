@@ -3,7 +3,7 @@ public class tester1 {
 
 	public static void main (String [] args)
 	{
-		//Þetta er test fyrir framtíðina
-		System.out.println("hallo");
+		//ï¿½etta er test fyrir framtï¿½ï¿½ina
+		System.out.println("no ways sir");
 	}
 }
