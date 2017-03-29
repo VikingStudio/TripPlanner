@@ -1,3 +1,4 @@
+// Gunnar 27.03.17
 public class Hotel {
 	private int id;
 	private String name;
