@@ -1,4 +1,4 @@
-// Gunnar 27.03.17
+// Gunnar M 27.03.17
 public class Flight{
 	private int id;
 	private String name;
