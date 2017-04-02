@@ -1,10 +1,9 @@
-/**
- * Created by Styrmir on 22.3.2017.
- */
+import java.util.List;
+
 public class Basket {
-    //private Flight[] flights;
-    //private Hotel[] hotels;
-    //private Trip[] trips;
+    private List<Flight> flights;
+    private List<Hotel> hotels;
+    private List<Trip> trips;
 
 
     //constructors
@@ -12,7 +11,21 @@ public class Basket {
 
 
     //getters, setters
+    public void addFlight(Flight flight){
+        flights.add(flight);
+    }
 
+    public void setFlights(List<Flight> flights){
+        this.flights = flights;
+    }
+
+    public List<Flight> getFlights(){
+        return this.flights;
+    }
+
+    public Basket getAll(){
+        return this;
+    }
 
     //methods
     public boolean storeBasket(){
