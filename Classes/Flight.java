@@ -31,6 +31,8 @@ public class Flight{
 		this.arrivalLocation = arrivalLocation;
 	}
 
+	public void setAvailability(int availability) { this.availability = availability; }
+
 	public void setPrice(double price){
 		this.price = price;
 	}
@@ -58,6 +60,8 @@ public class Flight{
 	public String getArrivalLocation(){
 		return this.arrivalLocation;
 	}
+
+	public int getAvailability() { return this.availability; }
 
 	public double getPrice(){
 		return this.price;

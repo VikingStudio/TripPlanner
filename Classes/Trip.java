@@ -32,6 +32,8 @@ public class Trip {
 		this.location = location;
 	}
 
+	public void setAvailability(int availability) { this.availability = availability; }
+
 	public void setPrice(double price) {
 		this.price = price;
 	}
@@ -59,6 +61,8 @@ public class Trip {
 	public String getLocation() {
 		return this.location;
 	}
+
+	public int getAvailability() { return this.availability; }
 
 	public double getPrice() {
 		return this.price;
