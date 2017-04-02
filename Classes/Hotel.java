@@ -72,4 +72,6 @@ public class Hotel {
 	public double getPrice() {
 		return this.price;
 	}
+
+	public String getPriceCurrency(){return this.priceCurrency; }
 }
