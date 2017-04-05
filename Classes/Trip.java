@@ -1,3 +1,5 @@
+package Classes;
+
 // Gunnar M 27.03.17
 public class Trip {
 	private int id;
