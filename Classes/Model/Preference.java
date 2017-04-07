@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Model;
 
 /**
  * Created by Styrmir on 22.3.2017.

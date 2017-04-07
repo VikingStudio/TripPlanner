@@ -1,18 +1,17 @@
-package Classes;
+package Classes.Model;
 
 // Gunnar M 27.03.17
-public class Hotel {
+public class Trip {
 	private int id;
 	private String name;
-	//private Date arrivalDate;
-	//private Date departureDate;
-	private String address;
+	//private Date timeDate;
+	private String description;
 	private String location;
 	private int availability;
 	private double price;
 	private String priceCurrency;
 
-	public Hotel(){}
+	public Trip(){}
 
 	//setters, getters
 	public void setId(int id) {
@@ -23,16 +22,12 @@ public class Hotel {
 		this.name = name;
 	}
 
-	//public void setArrivalDate(string arrivalDate){
-	//	this.arrivalDate = arrivalDate;
+	//public void setTimeDate(string timeDate){
+	//	this.timeDate = timeDate;
 	//	}
 
-	//public void setDepratureDate(string departureDate){
-	//	this.departureDate = departureDate;
-	//	}
-
-	public void setAddress(String address) {
-		this.address = address;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 	public void setLocation(String location) {
@@ -57,16 +52,12 @@ public class Hotel {
 		return this.name;
 	}
 
-	//public getArrivalDate(){
-	//	return this.arrivalDate
+	//public getDate(){
+	//	return this.date
 	//	}
 
-	//public getDepartureDate(){
-	//	return this.departureDate
-	//	}
-
-	public String getAddress() {
-		return this.address;
+	public String getDescription() {
+		return this.description;
 	}
 
 	public String getLocation() {
@@ -79,5 +70,5 @@ public class Hotel {
 		return this.price;
 	}
 
-	public String getPriceCurrency(){return this.priceCurrency; }
+	public String getPriceCurrency() { return this.priceCurrency; }
 }

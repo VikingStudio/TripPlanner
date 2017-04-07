@@ -1,19 +1,19 @@
-package Classes.Test;
+package Classes.UnitTests;
 
+import Classes.Controller.Search;
+import Classes.Model.Basket;
+import Classes.Model.Flight;
+import Classes.Model.Hotel;
+import Classes.Model.Trip;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import Classes.*;
-
-import java.util.*;
-import java.util.List;
 import java.util.regex.Pattern;
 
 import static org.junit.Assert.*;
 
 public class SearchTest {
-
     private Basket basket;
     private Search search;
     private Basket flightsearch = search.SearchFlights();
@@ -45,7 +45,7 @@ public class SearchTest {
         flight1.setDepartureLocation("RVK");
         flight1.setArrivalLocation("NWY");
         flight2.setPrice(840.00);
-        flight2.setPriceCurrency("GBT");
+        flight2.setPriceCurrency("GBP");
 
         //flight 1
         Trip trip1 = new Trip();

@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Model;
 
 /**
  * Created by Styrmir on 22.3.2017.
@@ -13,6 +13,10 @@ public class Image {
 
     //constructor
     public Image(){}
+
+    public Image(int id){
+        this.id = id;
+    }
 
     //setters, getters
     public int getId(){

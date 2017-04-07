@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Model;
 
 /**
  * Created by Styrmir on 22.3.2017.
@@ -15,6 +15,7 @@ public class User {
 	private String email;
 	private String phone;
 	private String nationality;
+
 
 	public User(int id) {
 		this.id = id;
@@ -67,7 +68,15 @@ public class User {
 	}
 
 	public void setEmail(String email) {
-		this.name = email;
+		this.email = email;
+	}
+
+	public String getPhone() {
+		return this.phone;
+	}
+
+	public void setPhone(String phone) {
+		this.name = phone;
 	}
 
 	public String getNationality() {

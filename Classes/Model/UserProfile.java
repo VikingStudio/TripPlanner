@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Model;
 
 /**
  * Created by Styrmir on 22.3.2017.
@@ -6,7 +6,7 @@ package Classes;
 public class UserProfile {
 	// I think id should be final, if we need
 	//    a new profile we need to create new instance
-	// recomend negative int for id for "fake" profiles
+	// recommend negative int for id for "fake" profiles
 	private final int id;
 	private Image image;
 	private String preferences;

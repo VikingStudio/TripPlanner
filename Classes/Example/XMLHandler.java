@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Example;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -10,6 +10,8 @@ package Classes;
 import java.io.File;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
+
+import Classes.Example.GameState;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
@@ -28,6 +30,8 @@ import org.jdom2.output.XMLOutputter;
     Handles all XML interaction and storage.
  */
 public class XMLHandler {
+
+    private GameState gameState;
 
     private static String dataFile = "/Data.xml"; //contains name and path of XML data file, comes with default path
 
