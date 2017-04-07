@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+
+
+    <rules>
+        <rules-eng>
+            <html>
+                <br/>Both players start at square 1, the goal is to reach square 25 first.
+                <br/>As players move a red border at the top and left represents the player, and a blue bottom and right border represents the computer.
+                <br/>If both the player and computer are at the same square all borders are colored magenta (a mix of red and blue).
+                <br/><br/>After rolling the dice you need to press the correct square on the table with your mouse to move your piece.
+                <br/>The computers turn is resolved automatically after you press the End Turn button.
+                <br/><br/>Good luck!
+            </html>
+        </rules-eng>
+        <rules-ice>
+            <html>
+                <br/>Allir leikmenn byrja a fyrsta reit, takmarkið er að vera fyrstur að komast 25 reiti.
+                <br/>Leikmaður er merktur sem rauður rammi á topp og vinstri hluta reits, á meðan blár rammi á botni og hægri hluta reits er tölvuleikmaður.
+                <br/>Ef bæði leikmaður og tölvuleikmaður eru á sama reit er fjólublár rammi málður (blanda af rauðum og bláum).
+                <br/><br/>Eftir að þú hefur kastað tening verður þú að smella á réttann reit til að færa þinn leikmann.
+                <br/>Leikur tölvunnar gerist sjálfkrafa eftir að þú smellir á End Turn takkann.
+                <br/><br/>Gangi þér vel!
+            </html>
+        </rules-ice>
+    </rules>
+
+
+    <gamestate gameid="1">
+        <savedname>DefaultSave</savedname>
+        <playerturn>true</playerturn>
+        <playerstart>1</playerstart>
+        <gameover>false</gameover>
+        <playerwinner>false</playerwinner>
+        <lastdiceroll>None</lastdiceroll>
+        <locationplayer>0</locationplayer>
+        <locationplayertoclick>0</locationplayertoclick>
+        <snakes>//serialized[][]array</snakes>
+        <ladders>//serialized[][]</ladders>
+        <numberofsnakers>3</numberofsnakers>
+        <numberofladders>3</numberofladders>
+        <computerclimbedladder>false</computerclimbedladder>
+        <computerslidsnake>false</computerslidsnake>
+    </gamestate>
+</root>
